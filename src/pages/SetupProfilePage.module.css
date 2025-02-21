@@ -1,0 +1,59 @@
+.setupProfilePageContainer {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.profileInputsContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputContainer {
+    margin-top: 18px;
+    width: 214px;
+    height: 40px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #394852;
+    display: flex;
+    align-items: center;
+}
+
+.inputField {
+    width: 100%;
+    margin: 0 12px;
+    background-color: transparent;
+    color: white;
+}
+
+.submitButton {
+    margin-top: 18px;
+    width: 214px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #394852;
+    color: white;
+}
+
+.avatarUploadButton {
+    background-image: url("../img/avatar-upload.png");
+    background-size: cover;
+    background-blend-mode: color;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid white;
+    width: 214px;
+    height: 214px;
+    transition: ease-out 0.15s;
+}
+
+.avatarUploadButton:hover {
+    filter: brightness(50%);
+    transition: ease-out 0.15s;
+}

@@ -1,0 +1,42 @@
+p {
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+input {
+    font-family: Roboto, Noto, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+@layer base {
+    input[type='number']::-webkit-outer-spin-button,
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number'] {
+        -webkit-appearance: none;
+        margin: 0;
+        -moz-appearance: textfield !important;
+    }
+}
+
+
+body {
+    background-color: #1c262d;
+}
+
+.defaultButton {
+    color: white;
+    background-color: #24323b;
+    transition: ease-out 0.15s;
+}
+
+.defaultButton:hover {
+    background-color: #394852;
+    transition: ease-out 0.15s;
+}

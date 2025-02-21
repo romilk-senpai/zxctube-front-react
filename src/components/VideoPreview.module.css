@@ -1,0 +1,24 @@
+.videoContainer {
+    margin-left: 24px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.videoPlayerPreview {
+    height: calc(20vw / 1.77777778);
+    background-color: #282c34;
+}
+
+.videoTitle {
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+.videoAuthor {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.5);
+}

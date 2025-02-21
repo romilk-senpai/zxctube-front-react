@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import AuthPage from "./pages/AuthPage";
+import common from './Common.module.css'
+import Header from "./components/Header";
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {fas} from '@fortawesome/free-solid-svg-icons'
+import {faTwitter, faFontAwesome} from '@fortawesome/free-brands-svg-icons'
+import SetupProfilePage from "./pages/SetupProfilePage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    library.add(fas, faTwitter, faFontAwesome,)
+    return (
+        <div>
+
+        </div>
+    );
 }
 
 export default App;
